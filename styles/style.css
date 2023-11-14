@@ -1,6 +1,5 @@
 .page {
   margin: 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px */
   background-color: #2a2c2f;
   font-family: "Inter", sans-serif;
   display: flex;
@@ -348,4 +347,32 @@
 
 div {
   border: 1px solid red;
+}
+
+@media (max-width: 768px) {
+  .page {
+    background-color: #0278fe;
+  }
+
+  .lead {
+    /* 700px */
+    width: 95%;
+    margin: 0 2.5%;
+  }
+
+  .lead__title {
+    /* 700px - 100% */
+    /* 560px - 80% */
+    width: 100%;
+  }
+
+  .lead__subtitle {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .page {
+    background-color: red;
+  }
 }
