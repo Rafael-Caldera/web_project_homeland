@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>De patria a patria</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="pages/normalize.css" />
+    <link rel="stylesheet" href="pages/index.css" />
     <link rel="stylesheet" href="fonts/Inter Web/inter.css" />
   </head>
   <body>
@@ -15,18 +15,18 @@
         alt="logotipo de Practicum"
         class="vector__logo"
       />
-      <lead class="lead">
-        <h1 class="lead__title">De patria a patria</h1>
-        <h2 class="lead__subtitle">
+      <header class="header">
+        <h1 class="header__title">De patria a patria</h1>
+        <h2 class="header__subtitle">
           Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
         </h2>
         <img
           src="images/principal__image.jpg"
           alt="Foto de un bonito pueblo en
         la costa de una playa"
-          class="lead__image"
+          class="header__image"
         />
-      </lead>
+      </header>
       <section class="intro">
         <h1 class="intro__title">
           Conoce un poco mejor los lugares de los que proceden tus colegas en
@@ -52,46 +52,48 @@
         </article>
       </section>
       <section class="photo-grid">
-        <img
-          src="images/small_image1__item.jpg"
-          alt="foto de pueblo costero en clima lluvioso"
-          class="photo-grid__item"
-        />
-        <img
-          src="images/small_image2__item.jpg"
-          alt="foto de ciudad costera en clima soleado"
-          class="photo-grid__item"
-        />
-        <img
-          src="images/small_image3__item.jpg"
-          alt="foto del domo de una iglesia en un atardecer"
-          class="photo-grid__item"
-        />
-        <img
-          src="images/small_image4__item.jpg"
-          alt="foto de una ciudad con un puente sobre el rio"
-          class="photo-grid__item"
-        />
-        <img
-          src="images/small_image5__item.jpg"
-          alt="foto de una llanura pastizal en día soleado"
-          class="photo-grid__item"
-        />
-        <img
-          src="images/small_image6__item.jpg"
-          alt="foto de un jardin en una ciudad"
-          class="photo-grid__item"
-        />
-        <img
-          src="images/small_image7__item.jpg"
-          alt="foto de una casa tipo choza con un hombre en la entrada"
-          class="photo-grid__item"
-        />
-        <img
-          src="images/small_image8__item.jpg"
-          alt="foto de dos casas en unas montañas de selva tropical"
-          class="photo-grid__item"
-        />
+        <div class="photo-grid__container">
+          <img
+            src="images/small_image1__item.jpg"
+            alt="foto de pueblo costero en clima lluvioso"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/small_image2__item.jpg"
+            alt="foto de ciudad costera en clima soleado"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/small_image3__item.jpg"
+            alt="foto del domo de una iglesia en un atardecer"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/small_image4__item.jpg"
+            alt="foto de una ciudad con un puente sobre el rio"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/small_image5__item.jpg"
+            alt="foto de una llanura pastizal en día soleado"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/small_image6__item.jpg"
+            alt="foto de un jardin en una ciudad"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/small_image7__item.jpg"
+            alt="foto de una casa tipo choza con un hombre en la entrada"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/small_image8__item.jpg"
+            alt="foto de dos casas en unas montañas de selva tropical"
+            class="photo-grid__item"
+          />
+        </div>
       </section>
       <section class="places">
         <div class="place">
@@ -302,17 +304,20 @@
         </div>
       </section>
       <section class="cover">
-        <h2 class="cover__title">Visítanos</h2>
-        <p class="cover__text">
-          Todo el año Galería de Arte de Practicum 404, Avenida Tim Berners-Lee.
-        </p>
-        <div class="button button_place_cover">Comprar entradas</div>
-        <div class="cover__overlay">
-          <img
-            src="images/cover__pradera.jpg"
-            alt="imagen de fondo de una pradera"
-            class="cover__background"
-          />
+        <div class="cover__container">
+          <h2 class="cover__title">Visítanos</h2>
+          <p class="cover__text">
+            Todo el año Galería de Arte de Practicum 404, Avenida Tim
+            Berners-Lee.
+          </p>
+          <a class="button button_place_cover" href="#">Comprar entradas</a>
+          <div class="cover__overlay">
+            <img
+              src="images/cover__pradera.jpg"
+              alt="imagen de fondo de una pradera"
+              class="cover__background"
+            />
+          </div>
         </div>
       </section>
       <footer class="footer">

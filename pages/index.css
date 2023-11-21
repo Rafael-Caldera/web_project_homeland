@@ -1,0 +1,273 @@
+@import url("/pages/normalize.css");
+@import url("../blocks/button/button_place_cover.css");
+@import url("../blocks/cover/cover__container.css");
+@import url("../blocks/cover/cover__title.css");
+@import url("../blocks/cover/cover__text.css");
+@import url("../blocks/cover/cover__background.css");
+@import url("../blocks/cover/cover__overlay.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/footer__copyright.css");
+@import url("../blocks/frame-6/frame-6.css");
+@import url("../blocks/frame-6/frame-6__paragraph.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/header__title.css");
+@import url("../blocks/header/header__subtitle.css");
+@import url("../blocks/header/header__image.css");
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/intro/intro__title.css");
+@import url("../blocks/intro/intro__text_principal.css");
+@import url("../blocks/intro/intro__text_second.css");
+@import url("../blocks/intro/intro__text_author-joseph.css");
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/photo-grid/photo-grid__container.css");
+@import url("../blocks/photo-grid/photo-grid__item.css");
+@import url("../blocks/places/places.css");
+@import url("../blocks/place/place.css");
+@import url("../blocks/place/place__title.css");
+@import url("../blocks/place/place__title_usa.css");
+@import url("../blocks/place/place__image.css");
+@import url("../blocks/place/place__website.css");
+@import url("../blocks/place/place__url-heading.css");
+@import url("../blocks/place/place__artist.css");
+@import url("../blocks/place/place__paragraphs.css");
+@import url("../blocks/place/place__paragraph.css");
+@import url("../blocks/vector/vector__logo.css");
+
+.page {
+  margin: 0 auto;
+  background-color: #2a2c2f;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .page {
+    background-color: #2a2c2f;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .header__title {
+    width: 100%;
+  }
+
+  .header__subtitle {
+    width: 100%;
+  }
+
+  .intro {
+    width: 95%;
+  }
+
+  .intro__text_principal {
+    width: 100%;
+  }
+
+  .intro__text_author-joseph {
+    width: 100%;
+  }
+
+  .intro__text_second {
+    width: 100%;
+  }
+
+  .photo-grid__container {
+    width: 95%;
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    grid-template-rows: repeat(4, 32%);
+    grid-gap: 16px;
+    justify-content: center;
+  }
+
+  .place {
+    width: 100%;
+    display: grid;
+    padding-bottom: 100px;
+    justify-content: center;
+    row-gap: 46px;
+    column-gap: 28px;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: auto 340px auto;
+    grid-template-areas:
+      "place__title place__website"
+      "place__image place__paragraphs"
+      "frame6 place__paragraphs";
+  }
+
+  .place__title {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 46px;
+  }
+
+  .place__title_usa {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 46px;
+    width: 120%;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  .frame-6 {
+    width: 100%;
+  }
+
+  .button_place_cover:active ~ .cover__overlay {
+    opacity: 0.3;
+  }
+}
+
+@media (max-width: 320px) {
+  .page {
+    background-color: #2a2c2f;
+  }
+
+  .vector__logo {
+    width: 60%;
+    height: 2%;
+    margin-top: 34px;
+    margin-bottom: 40px;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .header__title {
+    width: 100%;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .header__subtitle {
+    width: 100%;
+    margin-bottom: 36px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .intro {
+    width: 95%;
+    margin-top: 31px;
+  }
+
+  .intro__title {
+    width: 100%;
+    margin-bottom: 14px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .intro__text_principal {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .intro__text_author-joseph {
+    margin-bottom: 7px;
+  }
+
+  .photo-grid__container {
+    width: 95%;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(8, 100%);
+    grid-gap: 12px;
+    justify-content: center;
+  }
+
+  .place {
+    width: 100%;
+    display: grid;
+    margin-top: 0px;
+    padding-bottom: 21px;
+    justify-content: center;
+    row-gap: 25px;
+    grid-template-columns: 320px;
+    grid-template-rows: auto auto 320px auto auto 48px;
+    grid-template-areas:
+      "place__title"
+      "place__website"
+      "place__image"
+      "place__paragraphs"
+      "place__paragraphs"
+      "frame6";
+  }
+
+  .place__title {
+    width: 95%;
+    margin: auto;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+  }
+
+  .place__website {
+    width: 95%;
+    margin: auto;
+  }
+
+  .place__paragraphs {
+    width: 95%;
+    margin: auto;
+  }
+
+  .frame-6 {
+    width: 95%;
+    margin: auto;
+  }
+
+  .frame-6__paragraph {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+  }
+
+  .cover__container {
+    width: 321px;
+    height: auto;
+    margin-bottom: 64px;
+  }
+
+  .cover__title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .cover__text {
+    width: 200px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+}
