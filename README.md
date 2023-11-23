@@ -20,3 +20,5 @@ _En resumen, el diseño web adaptativo es una técnica que permite a los sitios 
 3. **Media queries:**_Las media queries son una forma de adaptar el diseño y la apariencia de una página web según las características del dispositivo o del navegador que la muestra. Por ejemplo, se pueden usar media queries para cambiar el tamaño de la fuente, el color, el margen, el ancho o la altura de los elementos según el ancho de la pantalla, la orientación, el modo de visualización, el contraste o la resolución. Las media queries son un componente clave del diseño web adaptable o responsive. Las media queries se pueden usar de varias formas en CSS, HTML y JavaScript. En CSS, se pueden usar las reglas @media o @import para aplicar estilos condicionalmente según el resultado de una media query._
    **La sintaxis básica de una media query es la siguiente:**
    **@media tipo_de_medio and (expresión de característica de medios) {reglas de estilo}**
+
+   [soy un link]()

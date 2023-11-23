@@ -1,13 +1,10 @@
 .button_place_cover {
-  width: 198px;
-  height: 48px;
-  padding: 13px, 20px, 13px, 20px;
+  width: 178px;
+  padding: 13px 20px 13px 20px;
   border-radius: 4px;
-  gap: 10px;
   background-color: #0278fe;
   display: inline-block;
   cursor: pointer;
-  grid-area: frame6;
   text-align: center;
   align-items: center;
   justify-content: center;

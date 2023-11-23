@@ -1,5 +1,8 @@
 .places {
-  display: flex;
-  flex-direction: column;
+  width: 73%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto;
+  justify-content: center;
   margin-top: 92px;
 }
