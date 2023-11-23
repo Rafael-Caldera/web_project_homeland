@@ -24,14 +24,14 @@
 @import url("../blocks/places/places.css");
 @import url("../blocks/place/place.css");
 @import url("../blocks/place/place__title.css");
-@import url("../blocks/place/place__title_usa.css");
+@import url("../blocks/place/place__titleusa.css");
 @import url("../blocks/place/place__image.css");
 @import url("../blocks/place/place__website.css");
 @import url("../blocks/place/place__url-heading.css");
 @import url("../blocks/place/place__artist.css");
 @import url("../blocks/place/place__paragraphs.css");
 @import url("../blocks/place/place__paragraph.css");
-@import url("../blocks/vector/vector__logo.css");
+@import url("../blocks/logotipo/logotipo.css");
 
 .page {
   margin: 0 auto;
@@ -66,7 +66,7 @@
     line-height: 70px;
   }
 
-  .place__title_usa {
+  .place__titleusa {
     font-size: 63px;
     font-weight: 800;
     line-height: 70px;
@@ -184,7 +184,7 @@
     line-height: 48px;
   }
 
-  .place__title_usa {
+  .place__titleusa {
     font-size: 46px;
     font-weight: 900;
     line-height: 48px;
@@ -243,7 +243,7 @@
     line-height: 40px;
   }
 
-  .place__title_usa {
+  .place__titleusa {
     font-size: 30px;
     font-weight: 800;
     line-height: 40px;
@@ -407,7 +407,7 @@
     line-height: 38px;
   }
 
-  .place__title_usa {
+  .place__titleusa {
     width: 95%;
     margin: auto;
     font-size: 36px;
