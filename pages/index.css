@@ -24,14 +24,14 @@
 @import url("../blocks/photo-grid/photo-grid__item.css");
 @import url("../blocks/places/places.css");
 @import url("../blocks/places__place/places__place.css");
-@import url("../blocks/places__place/place__title.css");
-@import url("../blocks/places__place/place__titleusa.css");
-@import url("../blocks/places__place/place__image.css");
-@import url("../blocks/places__place/place__website.css");
-@import url("../blocks/places__place/place__url-heading.css");
-@import url("../blocks/places__place/place__artist.css");
-@import url("../blocks/places__place/place__paragraphs.css");
-@import url("../blocks/places__place/place__paragraph.css");
+@import url("../blocks/places__place/places__place_title.css");
+@import url("../blocks/places__place/places__place_titleusa.css");
+@import url("../blocks/places__place/places__place_image.css");
+@import url("../blocks/places__place/places__place_website.css");
+@import url("../blocks/places__place/places__place_url-heading.css");
+@import url("../blocks/places__place/places__place_artist.css");
+@import url("../blocks/places__place/places__place_paragraphs.css");
+@import url("../blocks/places__place/places__place_paragraph.css");
 @import url("../blocks/logotipo/logotipo.css");
 
 .page {
@@ -61,31 +61,31 @@
     grid-template-rows: auto auto 68%;
   }
 
-  .place__title {
+  .places__place_title {
     font-size: 63px;
     font-weight: 800;
     line-height: 70px;
   }
 
-  .place__titleusa {
+  .places__place_titleusa {
     font-size: 63px;
     font-weight: 800;
     line-height: 70px;
   }
 
-  .place__paragraph {
+  .places__place_paragraph {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
   }
 
-  .place__artist {
+  .places__place_artist {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
   }
 
-  .place__url-heading {
+  .places__place_url-heading {
     width: 20%;
     font-size: 17px;
     font-weight: 400;
@@ -179,20 +179,20 @@
       "frame6 place__paragraphs";
   }
 
-  .place__title {
+  .places__place_title {
     font-size: 46px;
     font-weight: 900;
     line-height: 48px;
   }
 
-  .place__titleusa {
+  .places__place_titleusa {
     font-size: 46px;
     font-weight: 900;
     line-height: 48px;
     width: 120%;
   }
 
-  .place__paragraph {
+  .places__place_paragraph {
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -238,32 +238,32 @@
     grid-template-rows: auto auto 68%;
   }
 
-  .place__title {
+  .places__place_title {
     font-size: 27px;
     font-weight: 700;
     line-height: 40px;
   }
 
-  .place__titleusa {
+  .places__place_titleusa {
     font-size: 30px;
     font-weight: 800;
     line-height: 40px;
     width: 120%;
   }
 
-  .place__paragraph {
+  .places__place_paragraph {
     font-size: 12px;
     font-weight: 300;
     line-height: 15px;
   }
 
-  .place__artist {
+  .places__place_artist {
     font-size: 14px;
     font-weight: 300;
     line-height: 15px;
   }
 
-  .place__url-heading {
+  .places__place_url-heading {
     width: 21%;
     font-size: 13px;
     font-weight: 300;
@@ -400,7 +400,7 @@
       "frame6";
   }
 
-  .place__title {
+  .places__place_title {
     width: 95%;
     margin: auto;
     font-size: 36px;
@@ -408,7 +408,7 @@
     line-height: 38px;
   }
 
-  .place__titleusa {
+  .places__place_titleusa {
     width: 95%;
     margin: auto;
     font-size: 36px;
@@ -416,31 +416,31 @@
     line-height: 38px;
   }
 
-  .place__website {
+  .places__place_website {
     width: 95%;
     margin: auto;
   }
 
-  .place__paragraphs {
+  .places__place_paragraphs {
     width: 95%;
     margin: auto;
   }
 
-  .place__paragraph {
+  .places__place_paragraph {
     margin: 0;
     font-size: 17px;
     font-weight: 300;
     line-height: 25px;
   }
 
-  .place__artist {
+  .places__place_artist {
     margin: 0;
     font-size: 17px;
     font-weight: 300;
     line-height: 25px;
   }
 
-  .place__url-heading {
+  .places__place_url-heading {
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
