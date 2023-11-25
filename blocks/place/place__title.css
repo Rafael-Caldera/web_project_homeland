@@ -1,11 +1,10 @@
-.places__place_titleusa {
+.place__title {
   margin: 0;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 900;
-  line-height: 82px;
+  line-height: 75px;
   letter-spacing: 0em;
   text-align: left;
-  width: 120%;
   color: #ffffff;
   grid-area: place__title;
 }
