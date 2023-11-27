@@ -23,15 +23,15 @@
 @import url("../blocks/photo-grid/photo-grid__container.css");
 @import url("../blocks/photo-grid/photo-grid__item.css");
 @import url("../blocks/places/places.css");
-@import url("../blocks/place/place.css");
-@import url("../blocks/place/place__title.css");
-@import url("../blocks/place/place__titleusa.css");
-@import url("../blocks/place/place__image.css");
-@import url("../blocks/place/place__website.css");
-@import url("../blocks/place/place__url-heading.css");
-@import url("../blocks/place/place__artist.css");
-@import url("../blocks/place/place__paragraphs.css");
-@import url("../blocks/place/place__paragraph.css");
+@import url("../blocks/places__place/places__place.css");
+@import url("../blocks/places__place/place__title.css");
+@import url("../blocks/places__place/place__titleusa.css");
+@import url("../blocks/places__place/place__image.css");
+@import url("../blocks/places__place/place__website.css");
+@import url("../blocks/places__place/place__url-heading.css");
+@import url("../blocks/places__place/place__artist.css");
+@import url("../blocks/places__place/place__paragraphs.css");
+@import url("../blocks/places__place/place__paragraph.css");
 @import url("../blocks/logotipo/logotipo.css");
 
 .page {
@@ -52,7 +52,7 @@
     width: 100%;
   }
 
-  .place {
+  .places__place {
     width: 100%;
     display: grid;
     padding-bottom: 18%;
@@ -164,7 +164,7 @@
     width: 95%;
   }
 
-  .place {
+  .places__place {
     width: 100%;
     display: grid;
     padding-bottom: 6%;
@@ -229,7 +229,7 @@
     width: 100%;
   }
 
-  .place {
+  .places__place {
     width: 100%;
     display: grid;
     padding-bottom: 18%;
@@ -382,7 +382,7 @@
     justify-content: center;
   }
 
-  .place {
+  .places__place {
     width: 100%;
     display: grid;
     margin-top: 0px;
