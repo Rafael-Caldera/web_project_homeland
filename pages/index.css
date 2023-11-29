@@ -105,9 +105,27 @@
     gap: 10px;
   }
 
+  .nftbutton:hover {
+    background-color: cornflowerblue;
+  }
+
+  .nftbutton:active {
+    background-color: cornflowerblue;
+  }
+
   .cover {
     width: 92%;
     height: 690px;
+  }
+
+  .cover:hover {
+    opacity: 0.3;
+    transition: opacity 1s ease;
+  }
+
+  .cover:active {
+    opacity: 0.3;
+    transition: opacity 1s ease;
   }
 
   .button_place_cover:active ~ .cover__overlay {
@@ -198,14 +216,22 @@
   }
 
   .nftbutton {
-    width: 100%;
+    width: 105%;
   }
 
   .nftbutton__paragraph {
     width: 100%;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 19px;
+    font-weight: 600;
     line-height: 20px;
+  }
+
+  .nftbutton:hover {
+    background-color: cornflowerblue;
+  }
+
+  .nftbutton:active {
+    background-color: cornflowerblue;
   }
 
   .cover {
@@ -312,11 +338,12 @@
     background-color: #2a2c2f;
   }
 
-  .vector__logo {
-    width: 60%;
+  .logotipo {
+    width: 74%;
     height: 2%;
     margin-top: 34px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
+    justify-content: center;
   }
 
   .header {
@@ -466,7 +493,7 @@
     font-size: 34px;
     font-weight: 900;
     line-height: 35px;
-    margin-top: 16px;
+    margin-top: 16%;
     margin-bottom: 16px;
   }
 
@@ -481,6 +508,6 @@
   .button_place_cover {
     height: 16px;
     width: 170px;
-    margin-bottom: 10%;
+    margin-bottom: 12%;
   }
 }
